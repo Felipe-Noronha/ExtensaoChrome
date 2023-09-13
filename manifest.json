@@ -1,0 +1,10 @@
+{
+    "name": "Hello World",
+    "description": "Minha primeira extensão para o google chrome",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["activeTab", "escripting"],
+    "action":{
+        "default_popup":"index.html"
+    }
+}
